@@ -7,7 +7,7 @@ const Payments = ({ onModalOpen }: { onModalOpen: OpenModal }) => {
     justify-center items-start
     '
     >
-      <div className="flex justify-center flex-col text-[#FFFAEA] mt-[5rem]">
+      <div className="flex justify-center flex-col items-center text-[#FFFAEA] mt-[5rem]">
         <h1 className="text-[3rem] mb-[5rem] text-[#FE6600]">Payments</h1>
         <button className='
         block border-none cursor-pointer

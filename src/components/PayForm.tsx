@@ -1,3 +1,4 @@
+import CreditCard from "./CreditCard"
 import FormSection from "./FormSection"
 import { IModalOverlay } from "./Overlay"
 import Summary from "./Summary"
@@ -5,12 +6,14 @@ import Summary from "./Summary"
 const PayForm = ({ modalOpened, onModalClose }: IModalOverlay) => {
   return (
     <section className={`absolute left-[10rem] right-[10rem] py-[5rem] px-[3rem]
-    top-[5rem] bottom-[5rem] bg-white transition-opacity duration-200 ease-out
+    top-[2.5rem] bottom-[2.5rem] bg-white transition-opacity duration-200 ease-out
     ${modalOpened ? 'opacity-100 visible z-20' : 'opacity-0 invisible z-0'}
+    flex items-center
     `}
     >
       <FormSection />
       <Summary />
+      <CreditCard />
 
       {/* Close Icon */}
       <span className='absolute text-[2.5rem] text-[#333]

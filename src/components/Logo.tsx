@@ -2,7 +2,7 @@ import pageLogo from '../assets/page-logo.png';
 
 const Logo = () => {
   return (
-    <section className='w-fit flex items-center'>
+    <section className='w-fit flex items-center -ml-1'>
       <div
         className='
         w-[3rem] h-[3rem] rounded-full
