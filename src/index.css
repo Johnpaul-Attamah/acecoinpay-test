@@ -27,3 +27,13 @@ ul {
   height: 100%;
 }
 
+.otp-input {
+  width: 40%!important;
+  padding: 1.2rem 2rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline-color: #015DFE;
+  font-size: 1.5rem;
+}
+
+

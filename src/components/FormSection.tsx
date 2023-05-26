@@ -1,7 +1,9 @@
 import { MdOutlineModeEditOutline } from 'react-icons/md'
 import Clock from './Clock'
 import Logo from './Logo'
-import OtpInput from './OtpInput'
+import CardPinInput from './CardPinInput'
+import DiceGrid from './DiceGrid'
+import MyOtpInput from './MyOtpInput'
 
 const FormSection = () => {
   return (
@@ -40,15 +42,7 @@ const FormSection = () => {
               <span className='text-[1.2rem]'>edit</span>
             </span>
           </label>
-          <input 
-          type="text" 
-          name='card_number' 
-          id='card_number'
-          className='
-          w-full py-[1.2rem] px-[2rem] border border-solid border-[#ddd]
-          rounded-[4px] outline-[#015DFE] bg-[#efefef]
-          '
-          />
+          <CardPinInput />
         </div>
         <div 
         className='
@@ -60,15 +54,20 @@ const FormSection = () => {
             className='block flex-1 text-[1.4rem] font-[500] capitalize'>
                 CVV Number
             </label>
-            <input 
-            type="text" 
-            name='cvv' 
-            id='cvv'
-            className='
-            flex-1 px-[2rem] py-[1.2rem] border border-solid border-[#ddd]
-            rounded-[4px] outline-[#015DFE]
-            '
-            />
+            <div className='relative'>
+                <input
+                type="text"
+                name='cvv'
+                id='cvv'
+                placeholder='327'
+                className='
+                flex-1 px-[2rem] py-[1.2rem] border border-solid border-[#ddd]
+                rounded-[4px] outline-[#015DFE] text-[1.5rem] 
+                placeholder:text-[1.5rem]
+                '
+                />
+                <DiceGrid />
+            </div>
             <span className='absolute block w-full top-[4.4rem] text-[#444]'>
                 Enter 3 or 4 digit number on the card
             </span>
@@ -80,7 +79,9 @@ const FormSection = () => {
             htmlFor="expires"
             className='block flex-1 text-[1.4rem] font-[500] capitalize'
             >expiry Date</label>
-            <OtpInput />
+            <MyOtpInput
+            numInputs={2} 
+            />
             <span className='absolute block w-full top-[4.4rem] text-[#444]'>
                 Enter the expiry date of the card
             </span>
@@ -91,15 +92,18 @@ const FormSection = () => {
             <label 
             htmlFor="password" className='block flex-1 text-[1.4rem] font-[500] capitalize'
             >Password</label>
-            <input 
-            type="password" 
-            name="password" 
-            id="password" 
-            className='
-            flex-1 px-[2rem] py-[1.2rem] border border-solid border-[#ddd]
-            rounded-[4px] outline-[#015DFE]
-            '
-            />
+            <div>
+                <input
+                type="password"
+                name="password"
+                id="password"
+                className='
+                flex-1 px-[2rem] py-[1.2rem] border border-solid border-[#ddd]
+                rounded-[4px] outline-[#015DFE] text-[1.5rem]
+                '
+                />
+                <DiceGrid />
+            </div>
             <span className='absolute block w-full top-[4.4rem] text-[#444]'>
                 Enter your dynamic password
             </span>
