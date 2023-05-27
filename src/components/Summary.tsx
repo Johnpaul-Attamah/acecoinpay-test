@@ -5,14 +5,17 @@ const Summary = () => {
   return (
     <section className='
     bg-gradient-to-br from-[#E8ECEE] to-[#EFF5F9]
-    p-[2rem] pt-[16rem] ml-[4rem] mt-[6rem] rounded-[5px] flex-1
-    flex justify-center relative overflow-hidden flex-wrap
+    p-[2rem] ml-[4rem] mt-[6rem] rounded-[5px] flex-1 sm:ml-0
+    flex justify-center relative flex-wrap sm:self-start sm:w-[50%] xs:w-full
+    xs:justify-center
     '
     >
-      <ul className="flex flex-col w-full">
+      <ul className="flex flex-col w-full mt-[14rem] sm:mt-[2rem]">
         {
             cardData.map((product, idx) => (
-                <li key={idx} className="flex items-center mb-5">
+                <li key={idx} className="flex items-center mb-5 xs:flex-wrap
+                xs:border-b-[1px] border-solid border-[#888]
+                ">
                    <span className="mr-auto">{product.name}</span>
                    {product.icon && 
                    <span 
@@ -26,7 +29,7 @@ const Summary = () => {
             ))
         }
       </ul>
-      <div className="absolute top-[75%] left-0 right-0 h-[2.5rem]">
+      <div className="absolute top-[75%] sm:top-[65%] left-0 right-0 h-[2.5rem]">
       <div 
       className="
       w-[2.5rem] h-[2.5rem] bg-white absolute bottom-0 top-0 rounded-full
@@ -41,7 +44,8 @@ const Summary = () => {
       -right-2
       "/>
       </div>
-      <footer className="w-full flex items-center justify-between mt-[4rem]">
+      <footer className="w-full flex items-center justify-between 
+      mt-[4rem] sm:mt-[8rem]">
         <section className="flex flex-col">
             <h5 
             className="text-[0.9rem] font-[500]

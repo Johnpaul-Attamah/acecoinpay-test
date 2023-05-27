@@ -16,7 +16,9 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   height: 100vh;
+  min-height: 100vh;
   font-size: 1rem;
+  overflow-y: auto;
 }
 
 ul {
@@ -28,12 +30,30 @@ ul {
 }
 
 .otp-input {
-  width: 40%!important;
+  width: 50%!important;
   padding: 1.2rem 2rem;
   border: 1px solid #ddd;
-  border-radius: 4px;
+  border-radius: 8px;
   outline-color: #015DFE;
   font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (min-width: 1850px) {
+  html {
+    font-size: 100%;
+  }
 }
 
 
