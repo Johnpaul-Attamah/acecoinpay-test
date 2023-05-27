@@ -5,7 +5,7 @@ const MyOtpInput = () => {
   const [otp, setOtp] = useState('');
 
   return (
-    <div className='flex flex-1 items-center'>
+    <div className='flex flex-1 items-center w-[50%] xs:w-full'>
       <OtpInput
         value={otp}
         onChange={setOtp}

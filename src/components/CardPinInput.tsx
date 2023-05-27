@@ -8,7 +8,7 @@ const CardPinInput = () => {
     (e:ChangeEvent<HTMLInputElement>) => setCardNum(e.target.value); 
 
   return (
-    <div className="relative">
+    <div className="relative w-full">
         <input 
         type="text" 
         name='card_number' 
@@ -19,7 +19,7 @@ const CardPinInput = () => {
         placeholder='2412   -   7512    -   3412    -   3456'
         className='
         w-full py-[1.2rem] px-[5.5rem] border border-solid border-[#ddd]
-        rounded-[4px] outline-[#015DFE] bg-[#efefef] placeholder:text-[1.5rem]
+        rounded-[8px] outline-[#015DFE] bg-[#efefef] placeholder:text-[1.5rem]
         text-[1.5rem]
         '
         />
