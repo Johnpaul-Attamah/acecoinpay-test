@@ -48,7 +48,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://acecoinpay-ui-test.netlify.app/)
+[![Acecoinpay project][product-screenshot]](https://acecoinpay-ui-test.netlify.app/)
 
 A modal popup is a user interface element that appears on top of the main content, requiring user interaction to dismiss it. An online credit card payment user interface typically consists of fields to input card details (number, expiration date, CVV), billing information (name, address), an amount field, and a submit button to initiate the payment transaction securely.
 
@@ -176,7 +176,7 @@ Project Link: [https://github.com/Johnpaul-Attamah/acecoinpay-test](https://gith
 <!-- MARKDOWN LINKS & IMAGES -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/johnpaul-attamah-4b265983/
-[product-screenshot]: isrc/assets/source_repo/site.png
+[product-screenshot]: src/assets/source_repo/site.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [html-markup]: https://img.shields.io/badge/HTML-html5-orange
