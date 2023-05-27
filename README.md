@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="#">
-    <img src="src/assets/logo.png" alt="Logo" width="80" height="80">
+    <img src="src/assets/source_repo/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Simple Payment Modal Exercise</h3>
@@ -12,9 +12,9 @@
   <p align="center">
     ACECOINPAY Modal design with react and tailwindcss fully responsive
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">Explore The Docs</a>
+    <a href="https://github.com/Johnpaul-Attamah/acecoinpay-test#readme">Explore The Docs</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">View Site</a>
+    <a href="https://acecoinpay-ui-test.netlify.app/">View Site</a>
   </p>
 </div>
 
@@ -48,7 +48,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://acecoinpay-ui-test.netlify.app/)
 
 A modal popup is a user interface element that appears on top of the main content, requiring user interaction to dismiss it. An online credit card payment user interface typically consists of fields to input card details (number, expiration date, CVV), billing information (name, address), an amount field, and a submit button to initiate the payment transaction securely.
 
@@ -114,7 +114,7 @@ To create a payment modal design, follow these steps:
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/Johnpaul-Attamah/acecoinpay-test.git
    ```
 2. Install NPM packages
    ```sh
@@ -148,9 +148,10 @@ If you have a suggestion that would make this better, please fork the repo and c
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+[![LinkedIn][linkedin-shield]][linkedin-url]
+Johnpaul Attamah - [@my_linkedin](https://www.linkedin.com/in/johnpaul-attamah-4b265983/) - johnpaulattamah@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/Johnpaul-Attamah/acecoinpay-test](https://github.com/Johnpaul-Attamah/acecoinpay-test)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -159,8 +160,6 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-[//]: # (TODO my test todo item)
-* [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 * [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
 * [Malven's Grid Cheatsheet](https://grid.malven.co/)
@@ -168,6 +167,7 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
 * [React Icons](https://react-icons.github.io/react-icons/search)
+* TEAM RECRUIT
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -175,8 +175,8 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+[linkedin-url]: https://www.linkedin.com/in/johnpaul-attamah-4b265983/
+[product-screenshot]: isrc/assets/source_repo/site.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [html-markup]: https://img.shields.io/badge/HTML-html5-orange
